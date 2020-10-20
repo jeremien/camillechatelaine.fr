@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main>
+    {{ .Site.Params.title | markdownify }}
+    {{ .Site.Params.subTitle | markdownify }}
+    {{ partial "nav_home.html" . }}
+    <div>
+      {{.Content}}
+    </div>
+  </main>
+
+{{ end }}

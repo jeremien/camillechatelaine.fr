@@ -1,0 +1,37 @@
+baseURL = "/"
+languageCode = "fr-fr"
+title = "Camille Chatelaine"
+
+[params]
+  title = "# Camille Chateleine" 
+  subtitle = "*designer graphique*"
+
+[menu]
+  [[menu.main]]
+    name="éditions"
+    url="/editions"
+    weight=1
+  [[menu.main]]
+    name="identités"
+    url="/identites/"
+    weight=2
+  [[menu.main]]
+    name="interfaces"
+    url="/interfaces/"
+    weight=3
+  [[menu.main]]
+    name="expositions"
+    url="/expositions/"
+    weight=4
+  [[menu.main]]
+    name="recherches"
+    url="/recherches/"
+    weight=5
+  [[menu.main]]
+    name="interventions"
+    url="/interventions/"
+    weight=6
+  [[menu.main]]
+    name="etc"
+    url="/etc/"
+    weight=7
