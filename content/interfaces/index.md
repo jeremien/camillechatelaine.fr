@@ -11,3 +11,5 @@ L’observatoire cosmologique pour l’exposition
 Transformations au centre national d’art et culture Georges
 Pompidou à Paris, 2014
 - Co-conception de la revue en ligne From—To, 2012
+
+{{<post-image>}}

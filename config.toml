@@ -3,8 +3,9 @@ languageCode = "fr-fr"
 title = "Camille Chatelaine"
 
 [params]
-  title = "# Camille Chateleine" 
+  title = "# Camille Chatelaine" 
   subtitle = "*designer graphique*"
+  image = "home.jpg"
 
 [menu]
   [[menu.main]]

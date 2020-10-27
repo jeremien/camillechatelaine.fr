@@ -18,3 +18,5 @@ Saint-Étienne 2017
 - Co-création de l’identité visuelle de l’événement
 Formes et Formats de la recherche non-scientifique
 à la Cité du design, Saint-Étienne, 2016
+
+{{<post-image>}}

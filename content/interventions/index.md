@@ -1,6 +1,6 @@
 ---
-title: "Expositions"
-date: 2020-10-14T18:10:23+02:00
+title: "Interventions"
+date: 2020-10-14T18:10:40+02:00
 ---
 
 - Rédaction des cartels et suivi de l’exposition Dépliages,
@@ -18,3 +18,5 @@ nationale Design de Saint-Étienne, 2017
 - Montage et création scénographique pour l’exposition
 Tu nais,Tuning, tu meurs, Biennale Internationale Design
 Saint-Étienne 2015
+
+{{<post-image>}}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ partial "nav.html" . }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+<div id="content" class="content">
+  {{ .Content | replaceRE "<ul>" "<ul class=\"content--texte\">" | safeHTML }}
+</div>
 {{ end }}

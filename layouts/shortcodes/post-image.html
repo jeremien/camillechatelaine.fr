@@ -1,0 +1,19 @@
+
+  <div class="content--images">
+    {{ range .Page.Resources }}
+      {{ $src := (.RelPermalink) }}
+      {{ $classIn := "image top"}}
+      {{ $class := "image"}}
+      {{ $title := (.)}}
+
+      {{ if in $src "1"}}
+        <img class="{{ $classIn }}" title="{{ $title }}" src="{{ $src }}" />
+      {{ else }}
+        <img class="{{ $class }}" title="{{ $title }}" src="{{ $src }}" />
+      {{ end }}
+
+    {{ end }}
+  </div>
+</div>
+
+

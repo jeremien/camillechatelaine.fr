@@ -10,3 +10,5 @@ de Valence, 2014
 - DNAT design graphique, École Supérieure d’art et design
 de Valence, 2012
 - BTS Communication visuelle, ESAAB, Nevers, 2010
+
+{{<post-image>}}

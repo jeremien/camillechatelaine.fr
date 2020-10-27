@@ -3,7 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/etc/</loc>
+    <lastmod>2020-10-14T18:10:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/interventions/</loc>
+    <lastmod>2020-10-14T18:10:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/recherches/</loc>
+    <lastmod>2020-10-14T18:10:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/expositions/</loc>
+    <lastmod>2020-10-14T18:10:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/interfaces/</loc>
+    <lastmod>2020-10-14T18:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/editions/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,131 @@
+
+body {
+  background-color: #4c4cff;
+}
+
+.container {
+  
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header header"
+                       "content content content content"
+                       "footer footer footer footer";
+}
+
+.menu {
+  grid-area: header;
+  // background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 50px;
+  width: 90%;
+  position: fixed;
+  z-index: 200;
+  padding-left: 5px;
+  padding-top: 10px;
+  
+
+  a {
+    text-decoration: none;
+    color: white
+  }
+
+  font-size: 1.2rem;
+  
+}
+
+.content {
+  grid-area: content;
+  // background-color: grey;
+  display: flex;
+  height: 90vh;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: white;
+  
+  
+}
+
+.footer {
+  grid-area: footer;
+  // background-color: red;
+  height: 10vh;
+}
+
+.content--texte {
+  // background-color: blueviolet;
+  width: 50%;
+  li {
+    a {
+      color: white;
+    }
+    margin-bottom: 15px;
+  }
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.content--images {
+  // background-color: aquamarine;
+  width: 50%;
+  // height: 100%;
+  position: relative;
+
+  img {
+    object-fit: cover;
+    position: absolute; 
+  }
+}
+
+.top {
+  z-index: 100;
+}
+
+.back {
+  z-index: -1;
+}
+
+.home {
+  grid-area: content;
+  font-size: 1.8rem;
+  margin: 20px;
+  a {
+    color: white;
+  }
+}
+
+.home--content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.home--text {
+  width: 50%;
+
+  h1 {
+    margin-top: 25px;
+  }
+
+  nav {
+    margin-top: 25px;
+  }
+
+  p {
+    margin-top: 25px;
+  }
+}
+
+.home--img {
+  width: 50%;
+
+  img {
+    width: 95%;
+    padding: 20px;
+  }
+}

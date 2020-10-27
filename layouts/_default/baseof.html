@@ -2,7 +2,15 @@
 <html lang="en">
   {{ partial "head.html" . }}
   <body>
+    
+    <section class="container">
+    {{ if not .IsHome }}
+      {{ partial "nav.html" . }}
+    {{ end }}
     {{block "main" . }}
     {{end }}
+    {{ partial "footer.html"}}
+    </section>
+    
   </body>
 </html>

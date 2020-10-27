@@ -1,10 +1,16 @@
 {{ define "main" }}
-  <main>
-    {{ .Site.Params.title | markdownify }}
-    {{ .Site.Params.subTitle | markdownify }}
-    {{ partial "nav_home.html" . }}
-    <div>
+  <main class="home">
+    
+    <div class="home--content">
+      <div class="home--text">
+      {{ .Site.Params.title | markdownify }}
+      {{ .Site.Params.subTitle | markdownify }}
+      {{ partial "nav_home.html" . }}
       {{.Content}}
+      </div>
+      <div class="home--img">
+        <img src="{{ .Site.Params.image }}" />
+      </div>
     </div>
   </main>
 

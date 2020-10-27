@@ -13,3 +13,5 @@ Azimuts 45, Varia, 2016
 - DoomsdayClock, Azimuts 43, TEOTWAWKI, 2015
 - Co-autrice du cahier spécial prédictions, La fin du monde,
 Azimuts 43, TEOTWAWKI, 2015
+
+{{<post-image>}}
