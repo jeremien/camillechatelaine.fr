@@ -1,6 +1,6 @@
 ---
-title: "Etc"
-date: 2020-10-14T18:10:47+02:00
+title: Etc
+date: 2020-12-20
 ---
 
 - Diplôme supérieur de recherche en design (DSRD),

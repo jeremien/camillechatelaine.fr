@@ -7,6 +7,7 @@ const images = content.getElementsByTagName('img')
 for (let i = 0; i < links.length; i++) {
   links[i].addEventListener('click', () => {
     changeImage(i, links[i].title)
+    console.log(links[i].title)
     removeTop(i)
   }, false)
 }

@@ -75,10 +75,12 @@ body {
   width: 50%;
   // height: 100%;
   position: relative;
+  margin-right: 10px;
 
   img {
     object-fit: cover;
-    position: absolute; 
+    position: absolute;
+    width: 100%; 
   }
 }
 

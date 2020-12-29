@@ -1,6 +1,6 @@
 ---
-title: "Expositions"
-date: 2020-10-14T18:10:23+02:00
+title: Expositions
+date: 2020-12-20
 ---
 
 - Rédaction des cartels et suivi de l’exposition Dépliages,
