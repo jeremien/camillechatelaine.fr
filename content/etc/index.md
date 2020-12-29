@@ -1,5 +1,5 @@
 ---
-title: Etc
+title: etc
 date: 2020-12-20
 ---
 

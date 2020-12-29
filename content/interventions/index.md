@@ -1,22 +1,11 @@
 ---
-title: "Interventions"
-date: 2020-10-14T18:10:40+02:00
+title: interventions
+date: 2020-12-20
 ---
 
-- Rédaction des cartels et suivi de l’exposition Dépliages,
-quand le design se découvre, en collaboration avec
-Lille—design, Hôtel de Région des Hauts-de-France, 2021
-- Co-commissaire, coordinatrice et designer graphique
-de l’exposition Dépliages, quand le design travaille
-à la médiation de la technique, Biennale Internationale
-Design Saint-Étienne 2019
-- Co-conception de l’exposition On va bien finir par trouver,
-soutenance de DSRD, Cité du design, 2017
-- Co-commissaire, exposante et designer graphique
-de l’exposition La Gueule de l’emploi, Biennale Inter-
-nationale Design de Saint-Étienne, 2017
-- Montage et création scénographique pour l’exposition
-Tu nais,Tuning, tu meurs, Biennale Internationale Design
-Saint-Étienne 2015
+- [L’aventure cartographique, dans le cadre du dispositif Création en Cours soutenu par les ateliers Médicis, à l’école élémentaire Suzette Agulhon de Florac-Trois-Rivières, avec Céline Chip, 2019](# "Aventure_carto01.jpg")
+- [Gros mots, atelier de typographie au lycée Jean Monnet, Saint-Symphorien sur Coise, 2019](# "[first]01_Gros_mots_recherches01.jpg")
+- [Images en voie de disparition, avec les étudiants de la 1ère à la 5ème année, option design et art de l’École Supérieure d’art et design de Saint-Étienne, avec Céline Chip, 2017](# "workshop_images.jpg")
+- [The end is near, avec les étudiants de 2ème et 3ème année, option design de l’École Supérieure d’art et design de Saint-Étienne, avec Alice Courilleau et Julie Gayral, 2015](# "WS_esadse2.jpg")
 
 {{<post-image>}}
