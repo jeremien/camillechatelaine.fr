@@ -1,17 +1,21 @@
 
   <div class="content--images">
-    {{ range .Page.Resources }}
-      {{ $src := (.RelPermalink) }}
-      {{ $classIn := "image top"}}
-      {{ $class := "image"}}
-      {{ $title := (.)}}
 
-      {{ if in $src "[first]"}}
-        <img class="{{ $classIn }}" title="{{ $title }}" src="{{ $src }}" />
-      {{ else }}
-        <img class="{{ $class }}" title="{{ $title }}" src="{{ $src }}" />
+    {{ with .Page }}
+      {{ with .Resources.ByType "image" }}
+        {{ range .}}
+          {{ $classIn := "image top"}}
+          {{ $class := "image"}}
+          {{ $title := (.)}}
+          {{ $src := .RelPermalink }}
+
+            {{ if in $src "[first]"}}
+              <img class="{{ $classIn }}" title="{{ $title }}" src="{{ $src }}" />
+            {{ else }}
+              <img class="{{ $class }}" title="{{ $title }}" src="{{ $src }}" />
+            {{ end }}
+        {{ end }}
       {{ end }}
-
     {{ end }}
   </div>
 </div>

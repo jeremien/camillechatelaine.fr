@@ -7,6 +7,9 @@ title = "Camille Chatelaine"
   subtitle = "*designer graphique*"
   image = "home.jpg"
 
+[imaging]
+  quality = 75
+
 [menu]
   [[menu.main]]
     name="éditions"
@@ -36,3 +39,7 @@ title = "Camille Chatelaine"
     name="etc"
     url="/etc/"
     weight=7
+  [[menu.main]]
+    name="exemple"
+    url="/exemple/"
+    weight=8
