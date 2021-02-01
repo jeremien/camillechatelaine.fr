@@ -2,5 +2,5 @@
 {{ if (.Title) }}
 <a href="javascript:void(0)" {{ with .Title}} title="{{ . }}"{{ end }}>{{.Text}}</a>
 {{ else }}
-<a href="{{ .Destination | safeURL }}" target="_blank">{{.Text}}</a>
+<a href="{{ .Destination | safeURL }}">{{.Text}}</a>
 {{ end }}

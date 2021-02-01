@@ -1,6 +1,47 @@
+DefaultContentLanguage = "fr"
 baseURL = "/"
-languageCode = "fr-fr"
 title = "Camille Chatelaine"
+
+[menu]
+  [[menu.main]]
+    name="éditions"
+    url="/editions/"
+    weight=1
+
+  [[menu.main]]
+    name="identités"
+    url="/identites/"
+    weight=2
+
+  [[menu.main]]
+    name="interfaces"
+    url="/interfaces/"
+    weight=3
+
+  [[menu.main]]
+    name="expositions"
+    url="/expositions/"
+    weight=4
+
+  [[menu.main]]
+    name="recherches"
+    url="/recherches/"
+    weight=5
+
+  [[menu.main]]
+    name="interventions"
+    url="/interventions/"
+    weight=6
+
+  [[menu.main]]
+    name="etc"
+    url="/etc/"
+    weight=7
+
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
 
 [params]
   title = "# Camille Chatelaine" 
@@ -10,36 +51,4 @@ title = "Camille Chatelaine"
 [imaging]
   quality = 75
 
-[menu]
-  [[menu.main]]
-    name="éditions"
-    url="/editions"
-    weight=1
-  [[menu.main]]
-    name="identités"
-    url="/identites/"
-    weight=2
-  [[menu.main]]
-    name="interfaces"
-    url="/interfaces/"
-    weight=3
-  [[menu.main]]
-    name="expositions"
-    url="/expositions/"
-    weight=4
-  [[menu.main]]
-    name="recherches"
-    url="/recherches/"
-    weight=5
-  [[menu.main]]
-    name="interventions"
-    url="/interventions/"
-    weight=6
-  [[menu.main]]
-    name="etc"
-    url="/etc/"
-    weight=7
-  [[menu.main]]
-    name="exemple"
-    url="/exemple/"
-    weight=8
+  
